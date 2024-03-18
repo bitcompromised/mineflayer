@@ -1,0 +1,26 @@
+{
+  "name": "realmcclient",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "test": "node Main.js purpleprison.net proxy proxy socks5://javus:277F52C3124C6A2C9461E937934F6FC8@45.43.133.41:61237"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "check-proxy": "^0.3.5",
+    "colors": "^1.4.0",
+    "discord-webhook-node": "^1.1.8",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "minecraft-protocol": "^1.47.0",
+    "mineflayer": "^4.20.0",
+    "openai": "^4.28.4",
+    "proxy-agent": "^6.4.0",
+    "readline": "^1.3.0",
+    "request": "^2.88.2",
+    "socks": "^2.8.1"
+  }
+}
