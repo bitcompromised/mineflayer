@@ -1,0 +1,24 @@
+{
+  "name": "minecraft-bot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Using mineflayer to automate tasks in a humane way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "mc",
+    "bot",
+    "automate"
+  ],
+  "author": "Eadan Trimble",
+  "license": "ISC",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "fs": "^0.0.1-security",
+    "mineflayer": "^4.20.0",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
